@@ -99,7 +99,7 @@ export class AppComponent {
 
   substring(selectedOption: number): void {
     let res = this.answerVal - selectedOption;
-    const botsSumAfterSub = this.answerVal / 500;
+    const botsSumAfterSub = this.answerVal / 750;
     this.countOfBots = Number(botsSumAfterSub.toFixed(1));
     this.answerVal = res;
     if (selectedOption) {
