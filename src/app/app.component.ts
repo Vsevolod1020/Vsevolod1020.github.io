@@ -93,7 +93,7 @@ export class AppComponent {
       this.arrayOfVal.reduce((acc, el) => acc + el, 0)
     );
     this.countOfBets = this.arrayOfVal.length;
-    const botsSum = this.answerVal / 500;
+    const botsSum = this.answerVal / 750;
     this.countOfBots = Number(botsSum.toFixed(1));
   }
 
